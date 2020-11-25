@@ -1,0 +1,1561 @@
+
+                            /*Logo/Abas/Icones*/
+#Logo{
+    position: absolute;
+    width: 397px;
+    height: 193px;
+    left: 13px;
+    top: 20px;
+    
+    background-image: url("../img/Logo.png");
+    border-radius: 53px;
+}
+
+.Home{
+    position: absolute;
+    width: 45.6px;
+    height: 15.36px;
+    left: 464.1px;
+    top: 74.9px;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+}
+
+.Sobre{
+    position: absolute;
+    width: 45.6px;
+    height: 15.36px;
+    left: 871.43px;
+    top: 74.9px;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+
+    
+}
+
+.Produtos{
+    position: absolute;
+    width: 45.6px;
+    height: 15.36px;
+    left: 579.32px;
+    top: 74.9px;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+
+    
+}
+
+.Contato{
+    position: absolute;
+    width: 45.6px;
+    height: 15.36px;
+    left: 736.91px;
+    top: 74.9px;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+
+    
+}
+
+.NomesAba{
+    padding: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#Lupa{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:20px;
+    left:1100px;
+}   
+
+#Perfil{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:20px;
+    left:1165px;
+
+}
+
+#Carrinho{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:20px;
+    left:1230px;
+}
+
+#CxTxt{
+    position: absolute;
+    left: 25%;
+    top: 310px;
+    height: 35px;
+    width: 700px;
+    background-color: red;
+    display: none;
+    border-radius: 20px;
+
+    background: whitesmoke;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.51);
+}
+
+#LupaImg{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: 15px;
+}
+
+
+
+                                    /*Magic Choice*/
+
+#MagicFundo{
+    position: absolute;
+    width: 338px;
+    height: 81px;
+    left: 500px;
+    top: 166px;
+
+    background: linear-gradient(180deg, #EEC2C2 0%, rgba(255, 255, 255, 0) 100%), #F84949;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+}
+
+#MagicLetra{
+
+    position: absolute;
+width: 97px;
+height: 55px;
+left: 530px;
+top: 180px;
+
+font-family: Indie Flower;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 53px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#MagicLetraD{
+    position: absolute;
+width: 122px;
+height: 55px;
+left: 717px;
+top: 180px;
+
+font-family: Indie Flower;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 53px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#MagicIconFundo{
+    
+    position: absolute;
+    top:172px;
+    left:630px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    
+    background: linear-gradient(180deg, #EEC2C2 0%, rgba(255, 255, 255, 0) 100%), #F71E1E;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.51);
+
+}
+
+#MagicChoice{
+    position: absolute;
+    width: 952px;
+    height: 487px;
+    left: 148px;
+    top: 143px;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.661458) 45.83%, rgba(255, 255, 255, 0) 100%), #F95D5D;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 75px;
+    border-radius: 50px;
+    display: none;
+    z-index: 1;
+}
+
+#Exit{
+    position:absolute;
+    left: 90%;
+}
+
+#Varinha{
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    height: 50px;
+    width: 50px;
+}
+                                    /*Meio da Pagina*/
+
+body{
+    background-color: #F7F7F7 ;
+}
+
+#Carrosel{
+    position: absolute;
+    height: 500px;
+    width: 1200px;
+    top: 400px;
+    left: 60px;
+}
+
+.item{
+    position: relative;
+    top: 0px;
+    border-radius: 20px;
+}
+
+#CatRelevante{
+
+    position: absolute;
+    width: 462px;
+    height: 338px;
+    left: 95px;
+    top: 884px;
+
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 1;
+
+}
+
+#CatProdutosDesc{
+    position: absolute;
+    width: 693px;
+    height: 338px;
+    left: 577px;
+    top: 880px;
+    border-radius: 20px;
+
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#ImgAleatoria{
+    position: absolute;
+    width: 693px;
+    height: 338px;
+    left: 95px;
+    top: 1239px;
+    border-radius: 20px;
+    
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#Produto1{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 106px;
+    top: 1988px;
+    
+    background: #EDCACA;
+    border-radius: 19px;
+}
+
+#Produto2{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 493px;
+    top: 1955px;
+    
+    background: #EDCACA;
+    border-radius: 19px;
+    
+}
+
+#Produto3{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 878px;
+    top: 1988px;
+    
+    background: #EDCACA;
+    border-radius: 19px;
+}
+
+#ProdutoTop{
+    position: absolute;
+    width: 349px;
+    height: 36px;
+    left: 493px;
+    top: 1955px;
+    
+    background: #E63946;
+    border: none;
+    border-radius: 20px 20px 3px 3px;  
+}
+
+#Comprar1{
+    position: absolute;
+    width: 261px;
+    height: 61px;
+    left: 150px;
+    top: 2391px;
+
+    border: 1px solid #E63946;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+
+}
+
+#Comprar2{
+    position: absolute;
+    width: 261px;
+    height: 61px;
+    left: 537px;
+    top: 2341px;
+    
+    border: 1px solid #E63946;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+#Comprar3{
+    position: absolute;
+    width: 261px;
+    height: 61px;
+    left: 922px;
+    top: 2391px;
+
+    border: 1px solid #E63946;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.ComprarTxt1{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 614px;
+    top: 2334px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    
+    color: #000000;
+
+}
+
+.ComprarTxt2{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 225px;
+    top: 2384px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+
+}
+
+.ComprarTxt3{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 999px;
+    top: 2384px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+
+}
+
+#Comprar1:hover{
+
+    background-color: #e20c1e;
+}
+
+#Comprar2:hover{
+
+    background-color: #e20c1e;
+}
+
+#Comprar3:hover{
+
+    background-color: #e20c1e;
+}
+
+#Presente{
+    position: absolute;
+    width: 242px;
+    height: 342px;
+    top: 700px;
+    left: 82%;
+}
+
+#Presente2{
+    position: absolute;
+    width: 381px;
+    height: 481px;
+    left: calc(50% - 381.79px/2 - 611.1px);
+    top: 975.57px;
+
+    filter: blur(10px), drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+}
+
+#Populares{
+    position: absolute;
+    width: 390px;
+    height: 79px;
+    left: 515px;
+    top: 1715px;
+    
+    font-family: Julios Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 79px;
+
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+
+                                /* Produtos */
+
+
+#Filtro{
+    position: absolute;
+    width: 250px;
+    height: 525px;
+    top: 300px;
+    
+    background: #F7F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0.14deg);
+    border-radius: 10px;
+    
+
+}
+
+.Categorias{
+    padding: 10px;
+    width: 70px;
+    height: 17px;
+    border-radius: 20px;
+    
+    background: #E6E3E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Valores{
+    padding: 10px;
+}
+
+.titulo{
+    width: 250px;
+    height: 33px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    background: #E63946;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Preco{
+    position: relative;
+    top: -20px;
+}
+
+#cat2{
+    position: absolute;
+    left: 125px;
+    top: 260px ;
+}
+
+#cat4{
+    position: absolute;
+    left: 125px;
+    top: 315px ;
+}
+
+#cat6{
+    position: absolute;
+    left: 125px;
+    top: 370px ;
+}
+
+#CatFundo{
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+#Prod1{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 367px;
+    top: 393px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+
+}
+
+#Top{
+    position: absolute;
+    width: 349px;
+    height: 36px;
+
+    background: #E63946;
+
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#Comprar{
+    position: absolute;
+    width: 261px;
+    height: 61px;
+    left: 35px;
+    top: 396px;
+    
+    border: 1px solid #E63946;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+}
+
+#Comprar:hover{
+    background-color: #E63946;
+    border-radius: 50px;
+}
+
+#txtComprar{
+    position: absolute;
+    width: 88px;
+    height: 36px;
+    left: 90px;
+    top: -8px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#PrecoProd{
+    position: absolute;
+    width: 179px;
+    height: 70px;
+    left: 90px;
+    top: 320px;
+    
+    font-family: Karma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 70px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#MaisProd{
+    background-image: url(../img/SetaM.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 150px;
+    top: 300px;
+    
+   
+    
+}
+
+#MaisTxt{
+    position: absolute;
+    width: 40px;
+    height: 18px;
+    left: 145px;
+    top: 280px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#DescProd{
+    position: absolute;
+    width: 108px;
+    height: 19px;
+    top: 230px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+#ImgProd{
+    background-image: url(../img/Esgotado.png);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#Prod2{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 867px;
+    top: 393px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+
+}
+
+#Prod3{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 867px;
+    top: 993px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+
+}
+
+#Prod4{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 367px;
+    top: 1600px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+
+}
+
+#Prod5{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 867px;
+    top: 1600px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+
+}
+#Prod6{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 367px;
+    top: 2200px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+
+}
+
+#Prod7{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 867px;
+    top: 2200px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+
+}
+
+#Prod8{
+    position: absolute;
+    width: 349px;
+    height: 492px;
+    left: 367px;
+    top: 993px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+
+}
+
+                                    /* Perfil Cliente */
+
+#PerfilFundo{
+    position: absolute;
+    width: 329px;
+    height: 666px;
+    left: 0px;
+    top: 356px;
+    
+    background: #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#FotoPerfil{
+    position: absolute;
+    width: 218px;
+    height: 222px;
+    left: 55px;
+    top: 247px;
+    
+    background: #F4E3E3;
+    border: 4px solid #E63946;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 111.5px;
+}
+
+#TituloCarteira{
+    position: absolute;
+    width: 329px;
+    height: 31px;
+    left: 0px;
+    top: 626px;
+    
+    background: #E63946;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#TituloTxt{
+        position: absolute;
+        left: 35%;
+        top: -18px;
+}
+
+#SaldoCart{
+    position: absolute;
+    width: 124px;
+    height: 35px;
+    left: 73px;
+    top: 674px;
+    
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#IconMoney{
+    background-image: url(../img/MoneyIcon.png); 
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 23px;
+    top: 694px;
+}
+
+#IconAdd{
+    background-image: url(../img/IconAdd.png);
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 135px;
+    top: 760px;
+}
+
+#TopVermelho{
+    position: absolute;
+    width: 329px;
+    height: 28px;
+    left: 0px;
+    top: 830px;
+    
+    background: #E63946;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Pedidos{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 31px;
+    top: 869px;
+    
+    background: #F4E3E3;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+#Aval{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 31px;
+    top: 920px;
+    
+    background: #F4E3E3;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+#Favorito{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 31px;
+    top: 970px;
+    
+    background: #F4E3E3;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+#PedidosTxt{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 35%;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#AvalTxt{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 35%;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#FavoritoTxt{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 35%;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#PedidosFundo{
+    position: absolute;
+    width: 905px;
+    height: 648px;
+    left: 412px;
+    top: 350px;
+    
+    background: #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
+
+#TopPedidos{
+    position: absolute;
+    width: 905px;
+    height: 109px;
+    
+    background: #E63946;
+    -webkit-border-top-left-radius: 16px;
+    -webkit-border-top-right-radius: 16px;
+    -moz-border-radius-topleft: 16px;
+    -moz-border-radius-topright: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+
+#TxtPedidos{
+    position: absolute;
+    width: 445px;
+    height: 100px;
+    top: -35px;
+    left: 10px;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 51.5942px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    
+    color: #E7DBDB;
+}
+
+#Espaço1{
+    position: absolute;
+    width: 859px;
+    height: 100px;
+    left: 25px;
+    top: 150px;
+    
+    background: #9A9595;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+
+#Espaço2{
+    position: absolute;
+    width: 859px;
+    height: 100px;
+    left: 25px;
+    top: 300px;
+    
+    background: #9A9595;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+#Espaço3{
+    position: absolute;
+    width: 859px;
+    height: 100px;
+    left: 25px;
+    top: 450px;
+    
+    background: #9A9595;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+
+#Nome{
+    position: absolute;
+    width: 54px;
+    height: 35px;
+    left: 126px;
+    top: 480px;
+    
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Email{
+    position: absolute;
+    width: 65px;
+    height: 35px;
+    left: 0px;
+    top: 524px;
+    
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+                            /* Login */
+
+#Fundo{
+    position: absolute;
+    width: 361px;
+    height: 422px;
+    left: 245px;
+    top: 251px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+#Top{
+    position: absolute;
+    width: 361px;
+    height: 49px;
+    left: 245px;
+    top: 251px;
+    
+    background: #E63946;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#Top2{
+    position: absolute;
+    width: 361px;
+    height: 49px;
+    left: 700px;
+    top: 251px;
+    
+    background: #E63946;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Entrar{
+    position: absolute;
+    width: 153px;
+    height: 72px;
+    left: 110px;
+    top: 330px;
+    
+    background: #F4E3E3;
+    border: 0.9px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 3.6px 3.6px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+   
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34.7538px;
+    line-height: 51px;
+    
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#EmailForm{
+    position: absolute;
+    width: 299px;
+    height: 47px;
+    left: 30px;
+    top: 100px;
+    
+    background: #F4E3E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#SenhaForm{
+    position: absolute;
+    width: 299px;
+    height: 47px;
+    left: 30px;
+    top: 200px;
+    
+    background: #F4E3E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#ClienteR{
+    position: absolute;
+    width: 23px;
+    height: 25px;
+    left: 45px;
+    top: 255px;
+    
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Vendedor{
+    position: absolute;
+    width: 23px;
+    height: 25px;
+    left: 210px;
+    top: 255px;
+    
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#txtVendedorA{
+    position: absolute;
+    width: 96px;
+    height: 19px;
+    left: 80px;
+    top: 262px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#txtClienteA{
+    position: absolute;
+    width: 113px;
+    height: 19px;
+    left: 245px;
+    top: 262px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#LoginH1{
+    position: absolute;
+    width: 200px;
+    height: 62px;
+    left: 35%;
+    top: -40px;
+    
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 62px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+#LoginH12{
+    position: absolute;
+    width: 200px;
+    height: 62px;
+    left: 25%;
+    top: -40px;
+    
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 62px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+#FundoCad{
+    position: absolute;
+    width: 361px;
+    height: 624px;
+    left: 700px;
+    top: 251px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 3.99147px 3.99147px rgba(0, 0, 0, 0.25);
+    border-radius: 27.9403px;
+}
+
+#UsuarioForm{
+    position: absolute;
+    width: 299px;
+    height: 47px;
+    left: 30px;
+    top: 300px;
+    
+    background: #F4E3E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+#SenhaConfirm{
+    position: absolute;
+    width: 299px;
+    height: 47px;
+    left: 30px;
+    top: 400px;
+    
+    background: #F4E3E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#Entrar2{
+    position: absolute;
+    width: 153px;
+    height: 72px;
+    left: 110px;
+    top: 525px;
+    
+    background: #F4E3E3;
+    border: 0.9px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 3.6px 3.6px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+   
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34.7538px;
+    line-height: 51px;
+    
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#ClienteR2{
+    position: absolute;
+    width: 23px;
+    height: 25px;
+    left: 45px;
+    top: 470px;
+    
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Vendedor2{
+    position: absolute;
+    width: 23px;
+    height: 25px;
+    left: 210px;
+    top: 470px;
+    
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#txtVendedor2{
+    position: absolute;
+    width: 96px;
+    height: 19px;
+    left: 80px;
+    top: 475px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#txtCliente2{
+    position: absolute;
+    width: 113px;
+    height: 19px;
+    left: 245px;
+    top: 475px;
+    
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+
+
+                            /* Contato */
+
+#FundoContato{
+    position: absolute;
+    width: 480px;
+    height: 630px;
+    left: 475px;
+    top: 244px;
+    
+    background: #EDCACA;
+    box-shadow: 0px 5.30722px 5.30722px rgba(0, 0, 0, 0.25);
+    border-radius: 37.1505px;
+    
+}
+
+#Entrar3{
+    position: absolute;
+    width: 153px;
+    height: 72px;
+    left: 35%;
+    top: 535px;
+    
+    background: #F4E3E3;
+    border: 0.9px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 3.6px 3.6px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+   
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34.7538px;
+    line-height: 51px;
+    
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#Texto{      
+    position: absolute;
+    width: 397px;
+    height: 192px;
+    top: 315px;
+    left: 35px;
+    padding: 5px;
+    padding-left: 10PX;
+
+    background: #F4E3E3;
+    box-shadow: 0px 5.31856px 5.31856px rgba(0, 0, 0, 0.25);
+    border-radius: 26.5928px;
+}
+
+#TopContatoForm{
+    position: absolute;
+    width: 480px;
+    height: 65.15px;
+    left: 475px;
+    top: 243.97px;
+    
+    background: #E63946;
+    box-shadow: 0px 5.31856px 5.31856px rgba(0, 0, 0, 0.25);
+
+}
+
+#TxtTopContato{
+        
+position: absolute;
+width: 368.31px;
+height: 82.44px;
+left: 15%;
+top: -55px;
+
+font-family: Indie Flower;
+font-style: normal;
+font-weight: normal;
+font-size: 56.5287px;
+line-height: 82px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 5.31856px 5.31856px rgba(0, 0, 0, 0.25);
+}
+
