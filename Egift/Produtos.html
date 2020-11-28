@@ -8,83 +8,132 @@
     <link href = "https://fonts.googleapis.com/css2? family = Julius + Sans + One & display = swap" rel = "stylesheet">
     <link rel="stylesheet" href="carrosel/gallery.min.css">
     <link rel="stylesheet" href="carrosel/gallery.theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: #a8dadc;">
 
-    <header>
-        <div id="Logo">
-
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <a class="navbar-brand" href="#"></a>                                                                                                                                                                                                  
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto ">
+            <li class="nav-item mx-5">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-5">
+                <a class="nav-link" href="Produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item mx-5">
+                <a class="nav-link" href="Contato.html">Contato</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Procurar</button>
+          </form>
         </div>
+      </nav>
 
-        <div id="Abas">
-            <a href="index.html" class="Home">Home</a>
-            <a href="Produtos.html" class="Produtos">Produtos</a>
-            <a href="#" class="Contato">Contato</a>
-            <a href="#" class="Sobre">Sobre</a>
+      <ul class="items_footer_nav ">
+        <div class="mr-5">
+           <a href="carrinho.html"><img id="item_nav" src="img/Carrinho.png"></a>
         </div>
-
-        <div>
-            <img id=Lupa src="img/Lupa.png">
+        <div class="mr-5">
+            <a href="#"><img id="item_nav" src="img/Perfil.png"></a>
         </div>
-        <div id=CxTxt>
-            <img id=LupaImg src="img/Lupa.png">
-        </div>
-        <div>
-            <img id=Perfil src="img/Perfil.png">
-        </div>
-        <div>
-            <img id=Carrinho src="img/Carrinho.png">
-        </div>
+    </ul>
 
-        <div id="carrosel">
-        </div>
 
-        <div id="MagicFundo">  
-            </div>  
-
-        <div id="MagicLetra">
-                <a>Magic</a>
-            </div>
-
-        <div id="MagicLetraD">
-                <a>Choice</a>
-        </div>    
-
-        <div id="MagicIconFundo">
-            <img id="Varinha" src="img/Varinha.png">
-        </div>
-
-        <div id="MagicChoice">
-            <div id="fechar">
-                <a id="Exit">Fechar</a>
-            </div>
-        </div>
-    </header>
-
+      <div class="filtro">
+          <h3>Filtro de preços</h3>
+          <input type="number" placeholder="De">
+          <input type="number" name="" id="" placeholder="Até">
+          <input type="submit" value="Procurar" id="search">
+          <h3>Categorias</h3>
+          <div class="categorias_prod">
+            <input type="button" value="Roupa" id="btn_categoria">
+            <input type="button" value="Eletronico" id="btn_categoria">
+            <input type="button" value="Eletrodoméstico" id="btn_categoria">
+          </div>
+      </div>
     <section>
-        <div id="Filtro">
-                <h1 class="titulo" id="Preco">Preços</h1>
-            <div id="Valores">
-                <input type="number" placeholder="DE:" id="valor"></br>
-                <input type="number" placeholder="ATÉ:" id="valor2"></br>
-                <input type="range" min="1" max="100" value="50" id="slide"></div></br>
 
-            <div>
-            <center>
-                <h1 class="titulo">Categorias</h1>   
-            </center>
-                <div id="CatFundo">
-                    <div class="Categorias"> <a>Cat</a> </div> </br>
-                    <div class="Categorias" id="cat2"> <a>Cat</a> </div> 
-                    <div class="Categorias"> <a>Cat</a> </div> </br>
-                    <div class="Categorias" id="cat4"> <a>Cat</a> </div>
-                    <div class="Categorias"> <a>Cat</a> </div>
-                    <div class="Categorias" id="cat6"> <a>Cat</a> </div>
-
-                </div>    
+     
+        <main class="content_products">
+            <div class="content_product">
+                <div class="space_information_fornecedor">
+                    <div class="space_img">
+                       <a href="#"><img src="https://i.pinimg.com/originals/64/72/44/6472448cce61dd6827d940b37af19be1.jpg" alt="image_fornecedor" class="image_fornecedor"></a>
+                    </div>
+                    <h3>14:15</h3>
+                    <h3>21/07/2020</h3>
+                </div>
+                <div class="space_img_product">
+                    <img class="product_img" src="https://exitoina.uol.com.br/media/_versions/legacy/2019/04/08/blackpink-1138950_widelg.jpg" alt="era pra ser img de produto ne">
+                </div>
+                <h3 class="name_product">Garotas Coreanas</h3>
+                    <div class="space_information_product">
+                        <h4 class="space_desc">elas canta inglês mas é da coreia mesmo</h4>
+                        <h4 class="size_product">tamanho : coreano tradicional</h3>
+                    </div>
+                    <div class="space_information_descr">
+                        <h4 class="price_product"><strong>Preço :</strong> 45,79</h3>
+                        <h4 class="price_frete">Frete: 2,50</h3>
+                            <input type="number" placeholder="0" class="quant_item">
+                    </div>       
+                <input type="button" value="Adicionar ao carrinho" class="btn_add"> 
             </div>
-        </div>
 
+            <div class="content_product">
+                <div class="space_information_fornecedor">
+                    <div class="space_img">
+                       <a href=""><img src="https://pyxis.nymag.com/v1/imgs/180/c21/43215cdda0adde4e5caefe7a24791a0a7f-blackpink-mac.rsquare.w700.jpg" alt="image_fornecedor" class="image_fornecedor"></a>
+                    </div>
+                    <h3>19:28</h3>
+                    <h3>25/11/2020</h3>
+                </div>
+                <div class="space_img_product">
+                    <img class="product_img" src="https://specials-images.forbesimg.com/imageserve/5f3fd69232640e0748b6e8b2/960x0.jpg?fit=scale" alt="era pra ser img de produto ne">
+                </div>
+                <h3 class="name_product">Tornolezeira Eletronica do jailson Mendel</h3>
+                    <div class="space_information_product">
+                        <h4 class="space_desc">não sou o jailson mas vendo a tornolezeira que ele usou</h4>
+                        <h4 class="size_product">tamanho : cabe na tornolezeira do jailson mendes</h3>
+                    </div>
+                    <div class="space_information_descr">
+                        <h4 class="price_product"><strong>Preço :</strong> 299,99</h3>
+                        <h4 class="price_frete">Frete: 14,25</h3>
+                        <input type="number" placeholder="0" class="quant_item">
+                    </div>       
+                <input type="button" value="Adicionar ao carrinho" class="btn_add"> 
+            </div>
+
+            <div class="content_product">
+                <div class="space_information_fornecedor">
+                    <div class="space_img">
+                        <a href="#"><img src="https://i.pinimg.com/originals/1a/de/8e/1ade8e2c46271ca32c3143aea8ca25ec.jpg" alt="image_fornecedor" class="image_fornecedor"></a>
+                    </div>
+                    <h3>14:15</h3>
+                    <h3>21/07/2020</h3>
+                </div>
+                <div class="space_img_product">
+                    <img class="product_img" src="https://lastfm.freetls.fastly.net/i/u/770x0/f91db21f5b9442a0c27c21e3c2ec7f70.jpg" alt="era pra ser img de produto ne">
+                </div>
+                <h3 class="name_product">Carta Jailson mendes </h3>
+                    <div class="space_information_product">
+                        <h4 class="space_desc">perfeito pra proteção de buracos internos</h4>
+                        <h4 class="size_product">tamanho : 12cm</h3>
+                    </div>
+                    <div class="space_information_descr">
+                        <h4 class="price_product"><strong>Preço :</strong> 12,79</h3>
+                        <h4 class="price_frete"><strong>Frete: 2,79</h3>
+                            <input type="number" placeholder="0" class="quant_item">
+                    </div>       
+                <input type="button" value="Adicionar ao carrinho" class="btn_add"> 
+            </div>
+           
+        </main>
+<!--
         <div id="Prod1">
             <div id="Top">
             </div>
@@ -262,7 +311,7 @@
         </div>
 
     </section>
-    
+   --> 
 </body>
 </html>
 
