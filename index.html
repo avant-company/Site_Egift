@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egift</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+    <link href = "https://fonts.googleapis.com/css2? family = Julius + Sans + One & display = swap" rel = "stylesheet">
+    <link rel="stylesheet" href="carrosel/gallery.min.css">
+    <link rel="stylesheet" href="carrosel/gallery.theme.css">
+</head>
+<body style="background-color:#a8dacd">
+
+
+    <header>
+            <div class="Abas">
+                <a href="index.html" id="logo_name">E-gift</a>
+                <a href="index.html" >Home</a>
+                <a href="Produtos.html" >Produtos</a>
+                <a href="Contato.html" >Contato</a>
+            </div>
+               <div class="nav_top">
+                <a href="carrinho.html"><img  src="img/Carrinho.png"></a>
+                   <a href=""> <img  src="img/Perfil.png"></a>
+                </div>
+      
+
+    </header>
+        
+    <section>
+        
+    <div id="Carrosel">
+        <div class="gallery autoplay items-3">
+
+            <div id="item-1" class="control-operator"></div>
+            <div id="item-2" class="control-operator"></div>
+            <div id="item-3" class="control-operator"></div>
+    
+            <figure class="item">
+                <h1><img src="img/Produto1.png"></h1>
+            </figure>
+    
+            <figure class="item">
+                <h1><img src="img/Produtos2.png"></h1>
+            </figure>
+    
+            <figure class="item">
+                <h1><img src="img/Produtos3.png"></h1>
+            </figure>
+    
+            <div class="controls">
+                <a href="#item-1" class="control-button">.</a>
+                <a href="#item-2" class="control-button">.</a>
+                <a href="#item-3" class="control-button">.</a>
+            </div>
+    </div>
+    </div>
+
+        <div id="CatRelevante">   
+        </div>
+
+        <div id="CatProdutosDesc">
+        </div>
+
+        <div id="CatRecentes">
+        </div>
+
+        <div id="ImgAleatoria">
+        </div>
+
+        <div id="Produto1">
+        </div>
+
+        <div id="Produto2">
+        </div>
+
+        <div id="Produto3">
+        </div>
+
+        <div id="ProdutoTop">
+        </div>
+
+        <h1 id="Populares"> Populares </h1>
+
+        <div id="Comprar1">
+        </div>
+            <h1 class="ComprarTxt1">COMPRAR</h1>
+
+        <div id="Comprar2">
+        </div>
+            <h1 class="ComprarTxt2">COMPRAR</h1>
+
+        <div id="Comprar3">
+        </div>
+            <h1 class="ComprarTxt3">COMPRAR</h1>
+
+        <img src="img/Presente.png" id="Presente">
+        <img src="img/Presente2.png" id="Presente2">
+
+    </section>
+
+</body>
+</html>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script>
+        jQuery(document).ready(function(){
+            
+            jQuery("#MagicIconFundo").click(function(){
+                jQuery("#MagicChoice").show("fast");
+              
+        });
+    });
+
+        jQuery(document).ready(function(){
+            
+            jQuery("#fechar").click(function(){
+                jQuery("#MagicChoice").hide("fast");           
+               
+        });
+    });
+
+        jQuery(document).ready(function(){
+
+        jQuery("#Lupa").click(function(){
+                jQuery("#CxTxt").toggle("fast");
+              
+        });
+    });
+</script>
