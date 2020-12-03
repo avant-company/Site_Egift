@@ -15,6 +15,13 @@ padding:0;
 
 }
 
+
+.hide{
+    display: none;
+    
+}
+
+
 #nav_fix{
     top:0;
     position: fixed;
@@ -990,7 +997,10 @@ margin:0 auto;
 
                     /* TELA DE AGENDAMENTO */
 #agendamento{
-    height: 79vh;
+
+    height:89vh;
+
+   
     width:50%;
     margin:15px 20%;
     background-color: #1d3557;
